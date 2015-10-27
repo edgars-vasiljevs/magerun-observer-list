@@ -1,0 +1,6 @@
+autoloaders:
+  ObserverList: %module%/src
+
+commands:
+  customCommands:
+    - ObserverList\ListCommand
