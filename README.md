@@ -1,6 +1,6 @@
 # Magerun Observer List
 
-Magerun module for listing observers by event code.
+Magerun module for listing all Magento observers by event code.
 
 ![](http://i.imgur.com/X5NH8MD.png)
 
