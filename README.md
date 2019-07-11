@@ -16,8 +16,14 @@ Magerun: https://github.com/netz98/n98-magerun
 
 ## Usage
 
+To list observers for specific event:
+
     $ magerun scandi:observer-list [event]
 
+To list all observers for all events:
 
+    $ magerun scandi:observer-list
+    
+To exclude Magento core observers:
 
-
+    $ magerun scandi:observer-list --exclude-core
