@@ -32,7 +32,7 @@ class ListCommand extends AbstractMagentoCommand
 
     protected function configure()
     {
-        $this->setName('scandi:observer-list')
+        $this->setName('dev:observer-list')
              ->setDescription('Show all observers for all events or for specified event')
              ->addArgument('event', InputArgument::OPTIONAL, 'Event code')
              ->addOption('exclude-core', null, InputOption::VALUE_NONE, 'Exclude Magento core observers');
